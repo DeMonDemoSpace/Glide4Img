@@ -1,0 +1,2 @@
+rootProject.name='Glide4Img'
+include ':app'
