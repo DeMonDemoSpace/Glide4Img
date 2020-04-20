@@ -25,12 +25,6 @@
 
 
         <ImageView
-            android:id="@+id/ivInto"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:scaleType="fitXY" />
-
-        <ImageView
             android:id="@+id/ivGiftFirst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
