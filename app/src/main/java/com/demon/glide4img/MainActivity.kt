@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
         btn2.setOnClickListener {
             startActivity(Intent(this, UseAdvancedActivity::class.java))
         }
+
+        btn3.setOnClickListener {
+            startActivity(Intent(this, TransformActivity::class.java))
+        }
     }
 }

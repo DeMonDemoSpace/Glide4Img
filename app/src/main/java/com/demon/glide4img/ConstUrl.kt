@@ -16,4 +16,7 @@ object ConstUrl {
 
     const val ImgGif = "http://q8xcfpnt5.bkt.clouddn.com/hzwgif.gif"
 
+
+    const val ImgUrl = "http://q8xcfpnt5.bkt.clouddn.com/timg.jpg"
+
 }
