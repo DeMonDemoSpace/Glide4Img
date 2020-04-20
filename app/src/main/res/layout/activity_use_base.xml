@@ -13,21 +13,32 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
             android:id="@+id/ivUrl"
-            android:layout_width="100dp"
-            android:layout_height="100dp" />
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY" />
+
+
+        <ImageView
+            android:id="@+id/ivInto"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY" />
 
         <ImageView
             android:id="@+id/ivGiftFirst"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp" />
+            android:layout_height="wrap_content" />
 
 
         <ImageView
             android:id="@+id/ivGift"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
