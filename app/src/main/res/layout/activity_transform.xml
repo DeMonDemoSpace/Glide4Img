@@ -13,6 +13,11 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/ivScaleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -46,6 +51,16 @@
             android:layout_height="150dp" />
 
         <ImageView
+            android:id="@+id/ivCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ivSquare"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <ImageView
             android:id="@+id/ivMask"
             android:layout_width="200dp"
             android:layout_height="190dp" />
@@ -55,10 +70,6 @@
             android:layout_width="250dp"
             android:layout_height="250dp" />
 
-        <ImageView
-            android:id="@+id/ivSquare"
-            android:layout_width="match_parent"
-            android:layout_height="150dp" />
 
         <ImageView
             android:id="@+id/ivBrightness"
