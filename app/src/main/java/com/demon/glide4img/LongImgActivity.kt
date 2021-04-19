@@ -30,7 +30,7 @@ class LongImgActivity : AppCompatActivity() {
             .fitCenter()
 
         Glide.with(this)
-            //.asBitmap()
+            .asBitmap()
             .load(long_img)
             .thumbnail(0.5f)
             .apply(option1)
