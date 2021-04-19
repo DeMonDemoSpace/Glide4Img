@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TransformActivity"></activity>
+        <activity android:name=".VideoCoverActivity"/>
+        <activity android:name=".LongImgActivity" />
+        <activity android:name=".TransformActivity" />
         <activity android:name=".UseAdvancedActivity" />
         <activity android:name=".UseBaseActivity" />
         <activity android:name=".MainActivity">
