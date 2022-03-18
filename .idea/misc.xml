@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_long_img.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_use_advanced.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_use_base.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/xml/network_security_config.xml" value="0.35208333333333336" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

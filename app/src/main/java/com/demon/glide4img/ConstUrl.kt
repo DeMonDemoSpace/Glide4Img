@@ -8,15 +8,14 @@ package com.demon.glide4img
  */
 object ConstUrl {
     /**
-     * 自己云服务器上的图片，免费一个月，可能会过期，请替换成自己的图片
+     * 自己oss上的图片，可能会删除或者过期，如无法使用请替换成自己的图片
      */
-    const val ImgOne = "http://q8xcfpnt5.bkt.clouddn.com/hzw.jpg"
+    const val ImgOne = "https://idemon.oss-cn-guangzhou.aliyuncs.com/luffy.jpg"
 
-    const val ImgLogo = "http://q8xcfpnt5.bkt.clouddn.com/hzwlogo.jpg"
+    const val ImgLogo = "https://idemon.oss-cn-guangzhou.aliyuncs.com/onepiecelogo.jpeg"
 
-    const val ImgGif = "http://q8xcfpnt5.bkt.clouddn.com/hzwgif.gif"
+    const val ImgGif = "https://idemon.oss-cn-guangzhou.aliyuncs.com/opgif.gif"
 
-
-    const val ImgUrl = "http://q8xcfpnt5.bkt.clouddn.com/timg.jpg"
+    const val ImgUrl = "https://idemon.oss-cn-guangzhou.aliyuncs.com/onepiece1.jpeg"
 
 }

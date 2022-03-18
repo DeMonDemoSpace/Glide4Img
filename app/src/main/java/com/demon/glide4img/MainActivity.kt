@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn5.setOnClickListener {
+
+        }
+
+        btn6.setOnClickListener {
             startActivity(Intent(this, LongImgActivity::class.java))
         }
     }

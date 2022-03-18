@@ -2,6 +2,7 @@ package com.demon.glide4img
 
 import android.content.Context
 import android.graphics.*
+import androidx.appcompat.content.res.AppCompatResources
 import com.bumptech.glide.load.Key
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool
 import jp.wasabeef.glide.transformations.BitmapTransformation
@@ -45,9 +46,9 @@ class HeaddressTransformation constructor(private val maskId: Int) : BitmapTrans
         val result: Bitmap = pool.get(width, height, Bitmap.Config.ARGB_8888)
 
         Canvas(result).run {
-            val mask = Utils.getMaskDrawable(context.applicationContext, maskId)
-            mask.setBounds(0, 0, width, height)
-            mask.draw(this)
+            val mask = AppCompatResources.getDrawable(context, maskId)
+            mask?.setBounds(0, 0, width, height)
+            mask?.draw(this)
             drawBitmap(toTransform, 0f, 0f, sMaskingPaint)
         }
         return result

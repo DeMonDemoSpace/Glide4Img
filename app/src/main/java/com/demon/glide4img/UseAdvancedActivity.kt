@@ -61,35 +61,26 @@ class UseAdvancedActivity : AppCompatActivity() {
         val simpleTarget = object : DrawableImageViewTarget(ivInto) {
             override fun onResourceReady(resource: Drawable, transition: Transition<in Drawable>?) {
                 super.onResourceReady(resource, transition)
+                Log.i(TAG, "onResourceReady: ")
                 progressBar.hide()
             }
 
             override fun onLoadStarted(placeholder: Drawable?) {
                 super.onLoadStarted(placeholder)
+                Log.i(TAG, "onLoadStarted: ")
                 progressBar.show()
 
             }
 
             override fun onLoadFailed(errorDrawable: Drawable?) {
                 super.onLoadFailed(errorDrawable)
+                Log.i(TAG, "onLoadFailed: ")
             }
 
             override fun onLoadCleared(placeholder: Drawable?) {
                 super.onLoadCleared(placeholder)
+                Log.i(TAG, "onLoadCleared: ")
             }
-
-            override fun onStart() {
-                super.onStart()
-            }
-
-            override fun onStop() {
-                super.onStop()
-            }
-
-            override fun onDestroy() {
-                super.onDestroy()
-            }
-
         }
         val optionInto = RequestOptions()
             .skipMemoryCache(true)

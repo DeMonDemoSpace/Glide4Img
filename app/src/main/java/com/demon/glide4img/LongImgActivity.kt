@@ -13,8 +13,7 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 import kotlinx.android.synthetic.main.activity_long_img.*
 
 class LongImgActivity : AppCompatActivity() {
-    //http://qrsq1s9rn.hn-bkt.clouddn.com/aaa.png
-    private val long_img = "http://qrsq1s9rn.hn-bkt.clouddn.com/ccc.jpg"
+    private val long_img = "https://idemon.oss-cn-guangzhou.aliyuncs.com/long1.jpeg"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
