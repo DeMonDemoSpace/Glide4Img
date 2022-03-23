@@ -1,10 +1,11 @@
-package com.demon.glide4img
+package com.demon.glide4img.target
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import android.widget.ImageView
 import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.transition.Transition
+import com.demon.glide4img.R
 
 /**
  * @author DeMon
@@ -12,7 +13,7 @@ import com.bumptech.glide.request.transition.Transition
  * E-mail 757454343@qq.com
  * Desc:
  */
-class MyTarget constructor(view: View) : CustomViewTarget<View, Drawable>(view) {
+class EasyTarget constructor(view: View) : CustomViewTarget<View, Drawable>(view) {
     override fun onLoadFailed(errorDrawable: Drawable?) {
 
     }

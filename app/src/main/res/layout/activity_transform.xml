@@ -13,12 +13,6 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
-            app:shapeAppearance="@style/StyleShapeAppearanceImage" />
-
         <ImageView
             android:id="@+id/ivScaleType"
             android:layout_width="wrap_content"

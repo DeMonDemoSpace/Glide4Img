@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/drawable/bg_transpant_90.xml" value="0.22" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/drawable/bg_transparent.xml" value="0.22" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/drawable/bg_transparent_99.xml" value="0.22" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/drawable/bg_white.xml" value="0.22" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_cache.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_highlight.xml" value="0.35208333333333336" />
         <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_long_img.xml" value="0.35208333333333336" />
         <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_main.xml" value="0.35208333333333336" />
+        <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_transform.xml" value="0.25102116598588936" />
         <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_use_advanced.xml" value="0.35208333333333336" />
         <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/layout/activity_use_base.xml" value="0.35208333333333336" />
         <entry key="..\:/ITCode/Android/Glide4Img/app/src/main/res/xml/network_security_config.xml" value="0.35208333333333336" />

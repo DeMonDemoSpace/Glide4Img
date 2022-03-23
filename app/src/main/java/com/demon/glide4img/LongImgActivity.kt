@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.util.TypedValue
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
@@ -22,7 +20,6 @@ class LongImgActivity : AppCompatActivity() {
 
         val option1 = RequestOptions()
             .transform(RoundedCornersTransformation(5.intDp, 0))
-            .diskCacheStrategy(DiskCacheStrategy.ALL)
             .error(R.drawable.default_image)
             .placeholder(R.drawable.default_image)
             .dontAnimate()
@@ -36,7 +33,6 @@ class LongImgActivity : AppCompatActivity() {
             .into(iv_image)
 
         val option2 = RequestOptions()
-            .diskCacheStrategy(DiskCacheStrategy.ALL)
             .error(R.drawable.default_image)
             .placeholder(R.drawable.default_image)
             .dontAnimate()
